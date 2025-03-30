@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Clicky Cuties</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+    <body>
+        <audio id="keyboard_1" src="sounds/keyboard 1.mp3"></audio>
+        <audio id="keyboard_2" src="sounds/keyboard_down.mp3"></audio>
+        <audio id="keyboard_3" src="sounds/keyboard_up.mp3"></audio>
+        <audio id="lrbutton" src="sounds/lrbutton.mp3"></audio>
+
+        <div class="Upper">
+            <!-- left button -->
+            <div>
+                <button class="lButton">
+                    <img src="images/Polygon 1.png" height="43px" width="23px">
+                </button>
+            </div>
+
+            <!-- clickers -->
+            <div class="Canvas">
+                <div>
+                    <img src="images/Hamster.PNG" height="235px" width="235px">
+                </div>
+                <div>
+                    <img src="images/BnwCat.PNG" height="235px" width="235px">
+                </div>
+                <div class="active">
+                    <img src="images/Seal.PNG" height="235px" width="235px">
+                </div>
+                <div>
+                    <img src="images/Niao.PNG" height="235px" width="235px">
+                </div>
+                <div>
+                    <img src="images/Rabbit.PNG" height="235px" width="235px">
+                </div>
+            </div>
+
+            <!-- right button -->
+            <div>
+                <button class="rButton">
+                    <img src="images/Polygon 2.png" height="43px" width="23px">
+                </button>
+            </div>
+            
+            <!-- mini menu -->
+            <div class="mini_menu">
+                <div class="icon-wrapper">
+                    <div class="icon">
+                        <img src="images/Hamster.PNG" height="40px" width="40px">
+                    </div>
+                    <div class="icon">
+                        <img src="images/BnwCat.PNG" height="40px" width="40px">
+                    </div>
+                    <div class="icon active">
+                        <img src="images/Seal.PNG" height="40px" width="40px">
+                    </div>
+                    <div class="icon">
+                        <img src="images/Niao.PNG" height="40px" width="40px">
+                    </div>
+                    <div class="icon">
+                        <img src="images/Rabbit.PNG" height="40px" width="40px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="action-btn" id="changeContentBtn">
+            <box class="line"></box>
+        </div>
+
+        
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
