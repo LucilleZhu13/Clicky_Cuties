@@ -20,7 +20,7 @@ You can download the latest release [here](https://github.com/LucilleZhu13/Click
 If you encountered issue with message: "<application> is damaged and can't be opened. You should move it to the Bin.", follow the following steps:
 1. **Open Terminal** on macOS.
 
-2. **Navigate to the directory** where your application is located (optional but useful):
+2. **Navigate to the directory** where your application is located:
    ```sh
    cd /path/to/
 
